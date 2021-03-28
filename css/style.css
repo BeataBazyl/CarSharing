@@ -58,7 +58,8 @@ body {
 
 header {
     background-image: url("../images/Image.jpg");
-    background-position: cover;
+    background-position: center;
+    background-size: cover;
     height: 100vh;
     z-index: 0;
     position: relative;
@@ -114,7 +115,7 @@ p {
     text-decoration: none;
     font-size: 16px;
     padding: 10px 40px;
-    box-shadow: 0px 3px 6px #FF00004D;
+    box-shadow: 0 3px 6px #FF00004D;
 }
 
 .button2 a {
@@ -126,7 +127,7 @@ p {
     text-decoration: none;
     font-size: 16px;
     padding: 10px 40px;
-    box-shadow: 0px 3px 6px #FF00004D;
+    box-shadow: 0 3px 6px #FF00004D;
 }
 
 .circle {
@@ -138,7 +139,7 @@ p {
     justify-content: center;
     align-items: center;
     padding-top: -30px;
-    box-shadow: 0px 3px 6px #FF00004D;
+    box-shadow: 0 3px 6px #FF00004D;
 }
 
 section {
@@ -229,7 +230,7 @@ h3::after {
     border-radius: 50px;
     font-size: 14px;
     color: white;
-    box-shadow: 0px 3px 6px #FF00004D;
+    box-shadow: 0 3px 6px #FF00004D;
 }
 .article-photo-2 {
     height: 170px;
